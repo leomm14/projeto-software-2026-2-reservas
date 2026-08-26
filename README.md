@@ -79,7 +79,7 @@ docker build -t reservas .
 Passo 8 - Executar a imagem novamente
 
 ```
-docker run -p 8081:8081 -e BD_HOST=postgres-aula --network rede --name reservas reservas
+docker run -p 8081:8081 -e DB_HOST=postgres-aula --network rede --name reservas reservas
 ```
 
 ## Exercício 2
